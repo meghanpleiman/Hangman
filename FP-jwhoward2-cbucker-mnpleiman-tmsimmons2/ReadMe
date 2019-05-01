@@ -1,0 +1,26 @@
+
+
+Title: Categorical HangMan
+
+This Project is an attempt to create a game of HangMan that would allow the user to pull words from a predetermined
+    source
+
+PreRequisites For Operation: Java 8 or higher
+
+Installation: Inside pom.xml, then inside build. Change source and target to your jdk version. The Main method of this build is labeled as StartingStage.
+
+Testing: Running the test involves marking the directory tests as the test sources folder as the test sources directory and the java directory as the general sources root and selecting run all tests.
+
+Test breakdown: The test class 'IntroductionTests' is to make sure our introduction and game rules are correct. The test class 'RandomWordTest' test to see if we are in fact getting a random word each time we call the class 'RandomWord'. 'NumberOfMissesTests' is to check if 'checkIfInWord' will work as intended with every amount of wrong guesses possible. 'LetterValuesTests' checks the varying ways words can come into 'checkIfInWord' and makes sure each word can be passed.
+
+Built with: Java 8 Java 9 Maven
+
+Dependency management: Junit, JSoup.
+
+UI done with: JavaFX
+
+Suppressed Warnings: None.
+
+Authors: Chris Bucker, John Howard, Meghan Pleiman, and Tommy Simmons
+
+Acknowledgements:
